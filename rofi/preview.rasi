@@ -1,0 +1,45 @@
+configuration {
+    show-icons: true;
+    sidebar-mode: false;
+    font: "Source Code Pro 15";
+}
+
+window {
+    location: center;
+    width: 50%;
+    height: 60%;
+    children: [mainbox];
+    border-radius: 15px;
+    background-color: rgba(44, 52, 78, 0.8);
+}
+
+mainbox {
+    orientation: vertical;
+    children: [listview];
+    spacing: 0.5em;
+}
+
+listview {
+    lines: 8;
+    dynamic: false;
+    cycle: true;
+    spacing: 0.6em;
+    padding: 5px;
+    element-icon: true;
+    element-icon-size: 200;   /* размер «миниатюры» */
+    element-padding: 10px;
+    border: 2px;
+    border-color: @normal-foreground;
+}
+
+element {
+    border-radius: 10px;
+    background-color: transparent;
+    text-color: @normal-foreground;
+}
+
+element:selected {
+    background-color: rgba(64, 63, 111, 0.6);
+    text-color: #ffffff;
+}
+

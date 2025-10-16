@@ -1,0 +1,26 @@
+window {
+  background: rgba(30,30,30,0.8);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+listview {
+  padding: 4px;
+}
+
+listview button {
+  font-size: 16px;
+  color: #eee;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: background 0.15s;
+}
+
+listview button:selected {
+  background: #3b4252;
+  color: #88c0d0;
+}
+
+listview button:hover {
+  background: #4c566a;
+}
