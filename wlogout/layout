@@ -1,36 +1,36 @@
 {
-    "label" : "lock",
-    "action" : "swaylock --config ~/.config/swaylock/config --clock",
-    "text" : "Заблокировать",
+    "label" : "Заблокировать",
+    "action" : "loginctl lock-session",
+    "text" : "lock",
     "keybind" : "l"
 }
 {
     "label" : "hibernate",
-    "action" : "systemctl hibernate",
-    "text" : "Hibernate",
+    "action" : "systemctl hibernate || loginctl hibernate",
+    "text" : "downloading",
     "keybind" : "h"
 }
 {
-    "label" : "logout",
-    "action" : "loginctl terminate-user $USER",
-    "text" : "Выйти",
+    "label" : "Выход",
+    "action" : "hyprctl clients -j | jq -r '.[].pid' | xargs kill; pkill Hyprland || pkill sway || pkill niri || loginctl terminate-user $USER",
+    "text" : "logout",
     "keybind" : "e"
 }
 {
-    "label" : "shutdown",
-    "action" : "systemctl poweroff",
-    "text" : "Завершить",
+    "label" : "Завершить",
+    "action" : "hyprctl clients -j | jq -r '.[].pid' | xargs kill; systemctl poweroff || loginctl poweroff",
+    "text" : "power_settings_new",
     "keybind" : "s"
 }
 {
     "label" : "suspend",
-    "action" : "systemctl suspend",
-    "text" : "Suspend",
+    "action" : "systemctl suspend || loginctl suspend",
+    "text" : "bedtime",
     "keybind" : "u"
 }
 {
-    "label" : "reboot",
-    "action" : "systemctl reboot",
-    "text" : "Перезагрузить",
+    "label" : "Перезагрузка",
+    "action" : "reboot",
+    "text" : "restart_alt",
     "keybind" : "r"
 }
