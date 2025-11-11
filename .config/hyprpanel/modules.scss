@@ -1,0 +1,13 @@
+@include styleModule(
+    // class name
+    'cmodule-apps',
+    // styling properties
+    (
+            'text-color': #cba6f7,
+            'icon-background': #cba6f7,
+            'label-background': #242438,
+            'inner-spacing': 0.2em,
+            'border-enabled': false,
+            'border-color': #cba6f7,
+        )
+);

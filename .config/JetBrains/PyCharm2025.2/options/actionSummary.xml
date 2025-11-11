@@ -1,0 +1,145 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Copy">
+      <i c="1" l="1762876100304" />
+    </e>
+    <e n="$Delete">
+      <i c="2" l="1762876031881" />
+    </e>
+    <e n="$SelectAll">
+      <i c="1" l="1762874387514" />
+    </e>
+    <e n="$Undo">
+      <i c="3" l="1762790523637" />
+    </e>
+    <e n="CWMManageLicense">
+      <i c="1" d="1" l="1762253290944" k="1762253290944" />
+    </e>
+    <e n="CloseProject">
+      <i c="2" l="1762873275140" />
+    </e>
+    <e n="CopyElement">
+      <i c="1" l="1762790040143" />
+    </e>
+    <e n="Debug">
+      <i c="1" l="1762875762676" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="309" l="1762875609142" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="3" l="1762790527590" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="12" l="1762790741147" />
+    </e>
+    <e n="EditorCopy">
+      <i c="10" l="1762874388429" />
+    </e>
+    <e n="EditorDown">
+      <i c="66" l="1762790009118" />
+    </e>
+    <e n="EditorEnter">
+      <i c="33" l="1762874380793" />
+    </e>
+    <e n="EditorLeft">
+      <i c="78" l="1762790732185" />
+    </e>
+    <e n="EditorPaste">
+      <i c="3" l="1762874328548" />
+    </e>
+    <e n="EditorRight">
+      <i c="125" l="1762790730035" />
+    </e>
+    <e n="EditorRightWithSelection">
+      <i c="10" l="1762539661521" />
+    </e>
+    <e n="EditorUp">
+      <i c="57" l="1762541737378" />
+    </e>
+    <e n="GotoAction">
+      <i c="1" l="1762253285213" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="2" l="1762790059748" />
+    </e>
+    <e n="InsertInlineCompletionAction">
+      <i c="34" l="1762790802655" />
+    </e>
+    <e n="NewDir">
+      <i c="8" l="1762537176961" />
+    </e>
+    <e n="NewDirectoryProject">
+      <i c="1" l="1762536931507" />
+    </e>
+    <e n="NewPythonFile">
+      <i c="3" l="1762874324435" />
+    </e>
+    <e n="ReformatCode">
+      <i c="1" l="1762874347161" />
+    </e>
+    <e n="Register">
+      <i c="1" l="1762253203013" />
+    </e>
+    <e n="Run">
+      <i c="1" l="1762874369992" />
+    </e>
+    <e n="Stop">
+      <i c="1" l="1762875815353" />
+    </e>
+    <e n="SynchronizeCurrentFile">
+      <i c="2" l="1762876056221" />
+    </e>
+    <e n="Terminal.CopySelectedText">
+      <i c="3" l="1762875971944" />
+    </e>
+    <e n="Terminal.Paste">
+      <i c="7" l="1762876019853" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="1" l="1762875761576" />
+    </e>
+    <e n="TrialStateWidget">
+      <i c="2" l="1762253216785" />
+    </e>
+    <e n="com.intellij.execution.console.ConsoleExecuteAction">
+      <i c="3" l="1762875776022" />
+    </e>
+    <e n="com.intellij.ide.ReopenProjectAction">
+      <i c="1" l="1762876134343" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="2" l="1762790062282" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="1" l="1762253290930" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="9" l="1762875959578" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="7" l="1762876130141" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.ActionGroupPanelWrapper$6">
+      <i c="1" l="1762873280936" />
+    </e>
+    <e n="com.intellij.pycharm.community.ide.impl.miscProject.impl.PyMiscFileAction">
+      <i c="1" l="1762253190987" />
+    </e>
+    <e n="com.intellij.terminal.frontend.action.SendShortcutToTerminalAction">
+      <i c="91" l="1762876079869" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="1" l="1762874386565" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$ListMoveDownAction">
+      <i c="1" l="1762253290579" />
+    </e>
+    <e n="com.intellij.xdebugger.impl.breakpoints.RemoveBreakpointGutterIconAction">
+      <i c="1" l="1762875958750" />
+    </e>
+    <e n="com.jetbrains.python.sdk.AddLocalInterpreterAction">
+      <i c="1" l="1762875008375" />
+    </e>
+  </component>
+</application>

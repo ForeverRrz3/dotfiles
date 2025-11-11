@@ -1,0 +1,57 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/PyCharmMiscProject">
+          <value>
+            <RecentProjectMetaInfo frameTitle="PyCharmMiscProject" projectWorkspaceId="350i3eDX1TEMSloqb9psGAx4fN1">
+              <option name="activationTimestamp" value="1762536953672" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.27397.106" />
+              <option name="buildTimestamp" value="1761213660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="2266" y="40" width="2516" height="988" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1762536756471" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PycharmProjects/TgdetectBot">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="35KyxPxkchFv4vNEs699N8V1nL2">
+              <option name="activationTimestamp" value="1762877221674" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.27397.106" />
+              <option name="buildTimestamp" value="1761213660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="6" />
+              </option>
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1762873303676" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PycharmProjects/CourceFastAPI">
+          <value>
+            <RecentProjectMetaInfo frameTitle="CourceFastAPI – app.py" opened="true" projectWorkspaceId="359zDIyOYpdc7XEj9e7nRrKfQ2D">
+              <option name="activationTimestamp" value="1762796220452" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.27397.106" />
+              <option name="buildTimestamp" value="1761213660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="5" />
+              </option>
+              <frame x="2266" y="40" width="1900" height="1022" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1762876136895" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/PycharmProjects/TgdetectBot" />
+    <option name="lastProjectLocation" value="$USER_HOME$/PycharmProjects" />
+  </component>
+</application>

@@ -1,0 +1,12 @@
+
+[Default Applications]
+text/html=firefox-smart.desktop
+x-scheme-handler/http=firefox-smart.desktop
+x-scheme-handler/https=firefox-smart.desktop
+x-scheme-handler/about=firefox-smart.desktop
+x-scheme-handler/unknown=firefox-smart.desktop
+application/x-ms-dos-executable;application/x-wine-extension-msp;application/x-msi;application/x-msdos-program;text/win-bat;=PortProton.desktop
+x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+x-scheme-handler/anytype=anytype.desktop
+x-scheme-handler/postman=Postman.desktop
+inode/directory=org.kde.dolphin.desktop

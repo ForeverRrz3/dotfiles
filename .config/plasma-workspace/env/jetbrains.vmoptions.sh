@@ -1,0 +1,1 @@
+/home/foreverzzz/.jetbrains.vmoptions.sh

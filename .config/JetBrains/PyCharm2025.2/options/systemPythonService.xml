@@ -1,0 +1,11 @@
+<application>
+  <component name="SystemPythonService">
+    <option name="userProvidedPythons">
+      <list>
+        <option value="/usr/bin/python3.14" />
+        <option value="/usr/bin/python3.14" />
+        <option value="$USER_HOME$/PycharmProjects/TgdetectBot/.venv/bin/python3" />
+      </list>
+    </option>
+  </component>
+</application>

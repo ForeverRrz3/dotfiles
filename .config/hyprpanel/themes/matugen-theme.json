@@ -1,0 +1,29 @@
+{
+  "colors": {
+    "background": "241f31",
+    "foreground": "cab3b8",
+    "color0": "0b0b1e",
+    "color1": "674860",
+    "color2": "8D3C4D",
+    "color3": "9C5B64",
+    "color4": "D6736C",
+    "color5": "EF9970",
+    "color6": "FBCF78",
+    "color7": "cab3b8",
+    "color8": "8d7d80",
+    "color9": "674860",
+    "color10": "8D3C4D",
+    "color11": "9C5B64",
+    "color12": "D6736C",
+    "color13": "EF9970",
+    "color14": "FBCF78",
+    "color15": "cab3b8"
+  },
+  "panel": {
+    "background": "241f31",
+    "buttonBackground": "3c3836",
+    "buttonHover": "504945",
+    "buttonActive": "fabd2f",
+    "underlineColor": "fe8019"
+  }
+}

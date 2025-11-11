@@ -1,0 +1,9 @@
+{
+    "custom/apps":{
+        "label": "Apps",
+        "actions":{
+            "onLeftClick":"rofi -show drun -p Apps -theme config "
+        }
+    }
+
+}

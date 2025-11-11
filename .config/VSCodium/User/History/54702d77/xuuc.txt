@@ -1,0 +1,107 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <locale.h>
+#include <stdlib.h>
+#define SIZE 20
+#define Min(min, x) ((min) > (x) ? (x) : (min))
+#define Max(max, x) ((max) < (x) ? (x) : (max))
+
+void fill_A(int** arr_A, int N) {
+
+	for (int i = 0; i < N; i++) {
+		int is_valid = 0;
+		while (!is_valid) {
+			printf("Введите строчку №%d: ", i+1);
+			is_valid = 1;
+
+			for (int j = 0; j < N; j++){
+				int x = scanf("%d", &arr_A[i][j]);
+				if (x != 1) {
+					printf("Некорректное значение.");
+					is_valid = 0;while (getchar() != '\n');
+					break;
+				}
+			}
+		}
+		while (getchar() != '\n');
+	}
+
+}
+void fill_B(int** arr_B, int ** arr_A, int N) {
+
+    for (int ai = 0; ai < N; ai++)
+    {
+        for (int aj = 0; aj < N; aj++)
+        {
+            int max = arr_A[ai][aj], min = arr_A[ai][aj];
+            for (int i = 0; i < N; i++) {
+
+                for (int j = 0; j < N; j++) {
+                    if (i <= (j - aj + ai) && i >= (-j + ai + aj))
+                    {
+                        max = Max(max, arr_A[i][j]);
+                        min = Min(min, arr_A[i][j]);
+                    }
+                }
+
+            }
+            arr_B[ai][aj] = max - min;
+        }
+    }
+    
+}
+
+void print_matrix(int** arr, int N) {
+	for (int i = 0; i < N; i++) {
+		printf("\n");
+		for (int j = 0; j < N; j++) {
+			printf("%5d ", arr[i][j]);
+		}
+	}
+	printf("\n");
+}
+
+
+
+int** get_matrix(int N) {
+	int** B = (int**)malloc(N * sizeof(int*));
+	for (int i = 0; i < N; i++) {
+		B[i] = (int*)malloc(N * sizeof(int));
+	}
+	return B;
+}
+
+
+int main() {
+	setlocale(LC_ALL, "Ru");
+
+	int N, x;
+	printf("Введите N для квадратной матрицы N*N: ");
+	x = scanf("%d", &N);
+
+	if (!x || N >= SIZE) {
+		printf("Размер квадратной матрицы должен быть полодителным целым числом до %d", SIZE);
+		return 0;
+	}
+
+	int** arr_A = get_matrix(N);
+	int** arr_B = get_matrix(N);
+	
+	fill_A(arr_A, N);
+	fill_B(arr_B,arr_A, N);
+
+	printf("Матрица А: \n");
+	print_matrix(arr_A, N);
+
+    printf("Матрица B:\n");
+    print_matrix(arr_B, N);
+
+	for (int i = 0; i < N; i++) {
+		free(arr_A[i]);
+		free(arr_B[i]);
+	}
+
+	free(arr_A);
+	free(arr_B);
+
+}

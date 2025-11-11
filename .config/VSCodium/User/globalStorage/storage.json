@@ -1,0 +1,94 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "4a8fff161a3254b6522545990515c4a247b77c0187f5f570505dd9c42a98f127",
+    "telemetry.devDeviceId": "8258c693-980d-4ad6-9d1d-62b59a21f492",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1762379620916"
+            },
+            {
+                "backupFolder": "1762550174121"
+            },
+            {
+                "backupFolder": "1762550173520"
+            },
+            {
+                "backupFolder": "1762552399835"
+            },
+            {
+                "backupFolder": "1762552400507"
+            }
+        ]
+    },
+    "windowControlHeight": 30,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/foreverzzz/.mydotfiles/com.ml4w.dotfiles.stable/.config/hypr": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1762379620916": "__default__profile__",
+            "1762550174121": "__default__profile__",
+            "1762550173520": "__default__profile__",
+            "1762552399835": "__default__profile__",
+            "1762552400507": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#272822",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#fdfff1",
+            "background": "#272822",
+            "editorBackground": "#272822",
+            "titleBarBackground": "#1d1e19",
+            "titleBarBorder": "#161613",
+            "activityBarBackground": "#161613",
+            "activityBarBorder": "#161613",
+            "sideBarBackground": "#1d1e19",
+            "sideBarBorder": "#161613",
+            "statusBarBackground": "#1d1e19",
+            "statusBarBorder": "#161613",
+            "statusBarNoFolderBackground": "#1d1e19"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 30,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/foreverzzz/.config/VSCodium/Backups/1762550173520",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 2560,
+                "height": 1080
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 251,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "274f97299b3c64d2d69482a5691597ec": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}
